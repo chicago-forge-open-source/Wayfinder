@@ -1,18 +1,22 @@
-﻿using System.Collections;
+﻿using UnityEngine;
+using Mapbox.Utils;
+using Mapbox.Unity.Map;
+using Mapbox.Unity.MeshGeneration.Factories;
+using Mapbox.Unity.Utilities;
 using System.Collections.Generic;
-using UnityEngine;
 
 public class CameraScript : MonoBehaviour {
-	public Camera firstPersonCamera;
-
-
-
-	void Start () {
-		
+	void Start()
+	{
 	}
 	
 	// Update is called once per frame
-	void Update () {
-		// something 
+	private void Update()
+	{
+	}
+
+	public bool IsNotValidTouch(int touchCount, TouchPhase phase)
+	{
+		return touchCount < 1 || phase != TouchPhase.Began;
 	}
 }

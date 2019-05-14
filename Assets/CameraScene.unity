@@ -113,45 +113,732 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &701562616
+--- !u!21 &35465196
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: RealisticTopMaterial
+  m_Shader: {fileID: 47, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: _NORMALMAP
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 51c66b5db8c2a4b24a57320af1b9ccba, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 350555390fc65468c902fcfa4326a7ae, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 2800000, guid: 78882085082044e13b4522161b27799e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+--- !u!21 &77363562
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: DefaultTopMaterial
+  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+--- !u!21 &637501929
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: DefaultSideMaterial
+  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: eef5c5fe165da49da9d0ee7a33401d97, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+--- !u!21 &1375531789
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: RealisticSideMaterial
+  m_Shader: {fileID: 47, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: _METALLICGLOSSMAP _NORMALMAP _SPECGLOSSMAP
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: d2a73dbb08d7ca840a90744f29331d48, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: b1e095fa97e0735448d692ea5d0f52b5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 2800000, guid: 916910a2b0b27a440970a3f9c651e595, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 2800000, guid: d80341d897c46944dac3b14c8311e585, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 2800000, guid: 523830272e1419a4eae6d3f62dc02761, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+--- !u!1001 &1790790930
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4442908887562770, guid: c10877f7cd5764de18d46d7b777d1faa, type: 2}
+    - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: _vectorData._layerProperty.vectorSubLayers.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: _vectorData._layerProperty.tileJsonData.LayerDisplayNames.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: _vectorData._layerProperty.vectorSubLayers.Array.data[0].GoModifiers.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: _vectorData._layerProperty.vectorSubLayers.Array.data[1].GoModifiers.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: _vectorData._layerProperty.vectorSubLayers.Array.data[1].MeshModifiers.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: _vectorData._layerProperty.vectorSubLayers.Array.data[1].filterOptions.filters.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: _vectorData._layerProperty.vectorSubLayers.Array.data[1].materialOptions.materials.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: _vectorData._layerProperty.vectorSubLayers.Array.data[1].materialOptions.customStyleOptions.materials.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: _vectorData._layerProperty.vectorSubLayers.Array.data[1].materialOptions.materials.Array.data[0].Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: _vectorData._layerProperty.vectorSubLayers.Array.data[1].materialOptions.materials.Array.data[1].Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: _vectorData._layerProperty.vectorSubLayers.Array.data[1].materialOptions.customStyleOptions.materials.Array.data[0].Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: _vectorData._layerProperty.vectorSubLayers.Array.data[1].materialOptions.customStyleOptions.materials.Array.data[1].Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4398838867240558, guid: 35e76f6e52f5c4252a0b703cc2019a37, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4442908887562770, guid: c10877f7cd5764de18d46d7b777d1faa, type: 2}
+    - target: {fileID: 4398838867240558, guid: 35e76f6e52f5c4252a0b703cc2019a37, type: 2}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4442908887562770, guid: c10877f7cd5764de18d46d7b777d1faa, type: 2}
+    - target: {fileID: 4398838867240558, guid: 35e76f6e52f5c4252a0b703cc2019a37, type: 2}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4442908887562770, guid: c10877f7cd5764de18d46d7b777d1faa, type: 2}
+    - target: {fileID: 4398838867240558, guid: 35e76f6e52f5c4252a0b703cc2019a37, type: 2}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4442908887562770, guid: c10877f7cd5764de18d46d7b777d1faa, type: 2}
+    - target: {fileID: 4398838867240558, guid: 35e76f6e52f5c4252a0b703cc2019a37, type: 2}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4442908887562770, guid: c10877f7cd5764de18d46d7b777d1faa, type: 2}
+    - target: {fileID: 4398838867240558, guid: 35e76f6e52f5c4252a0b703cc2019a37, type: 2}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4442908887562770, guid: c10877f7cd5764de18d46d7b777d1faa, type: 2}
+    - target: {fileID: 4398838867240558, guid: 35e76f6e52f5c4252a0b703cc2019a37, type: 2}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4442908887562770, guid: c10877f7cd5764de18d46d7b777d1faa, type: 2}
+    - target: {fileID: 4398838867240558, guid: 35e76f6e52f5c4252a0b703cc2019a37, type: 2}
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114445513930812180, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224216094379521506, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224216094379521506, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224216094379521506, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224216094379521506, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224400791880857248, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224400791880857248, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224400791880857248, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224400791880857248, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224081640801367952, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4575768741269198, guid: 35e76f6e52f5c4252a0b703cc2019a37, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4507228240847652, guid: 35e76f6e52f5c4252a0b703cc2019a37, type: 2}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4433739508582778, guid: 35e76f6e52f5c4252a0b703cc2019a37, type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4773110821741150, guid: 35e76f6e52f5c4252a0b703cc2019a37, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: _options.locationOptions.latitudeLongitude
+      value: 41.895938, -87.652296
+      objectReference: {fileID: 0}
+    - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: _vectorData._layerProperty._sourceType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: _vectorData._layerProperty.sourceOptions.layerSource.Id
+      value: ofbengals13.cjvnwrxsm21p532s1p7n1cs2v-1duu3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: _vectorData._layerProperty.tileJsonData.LayerDisplayNames.Array.data[0]
+      value: mHub_FireMap_Tileset
+      objectReference: {fileID: 0}
+    - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: _vectorData._layerProperty.vectorSubLayers.Array.data[0].filterOptions._selectedLayerName
+      value: mHub_FireMap_Tileset
+      objectReference: {fileID: 0}
+    - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: _vectorData._layerProperty.vectorSubLayers.Array.data[0].presetFeatureType
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: _vectorData._layerProperty.tileJsonData.LayerDisplayNames.Array.data[1]
+      value: mHub_FireMap_Tileset
+      objectReference: {fileID: 0}
+    - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: _vectorData._layerProperty.vectorSubLayers.Array.data[0].extrusionOptions._selectedLayerName
+      value: mHub_FireMap_Tileset
+      objectReference: {fileID: 0}
+    - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: _vectorData._layerProperty.vectorSubLayers.Array.data[0].coreOptions.layerName
+      value: mHub_FireMap_Tileset
+      objectReference: {fileID: 0}
+    - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: _vectorData._layerProperty.vectorSubLayers.Array.data[0].extrusionOptions.propertyDescription
+      value: Unavailable in Selected Layer.
+      objectReference: {fileID: 0}
+    - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: _vectorData._layerProperty.vectorSubLayers.Array.data[0].coreOptions.geometryType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: _vectorData._layerProperty.vectorSubLayers.Array.data[0].honorBuildingIdSetting
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: _vectorData._layerProperty.vectorSubLayers.Array.data[0].GoModifiers.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 8c839e30191934c63948abcddd333a44,
+        type: 2}
+    - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: _vectorData._layerProperty.tileJsonData.LayerDisplayNames.Array.data[2]
+      value: mHub_FireMap_Tileset
+      objectReference: {fileID: 0}
+    - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: _vectorData._layerProperty.vectorSubLayers.Array.data[1].coreOptions.isActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: _vectorData._layerProperty.vectorSubLayers.Array.data[1].coreOptions.sublayerName
+      value: points
+      objectReference: {fileID: 0}
+    - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: _vectorData._layerProperty.vectorSubLayers.Array.data[1].coreOptions.geometryType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: _vectorData._layerProperty.vectorSubLayers.Array.data[1].coreOptions.snapToTerrain
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: _vectorData._layerProperty.vectorSubLayers.Array.data[1].lineGeometryOptions.Width
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: _vectorData._layerProperty.vectorSubLayers.Array.data[1].extrusionOptions._selectedLayerName
+      value: mHub_FireMap_Tileset
+      objectReference: {fileID: 0}
+    - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: _vectorData._layerProperty.vectorSubLayers.Array.data[1].extrusionOptions.propertyName
+      value: height
+      objectReference: {fileID: 0}
+    - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: _vectorData._layerProperty.vectorSubLayers.Array.data[1].extrusionOptions.propertyDescription
+      value: Unavailable in Selected Layer.
+      objectReference: {fileID: 0}
+    - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: _vectorData._layerProperty.vectorSubLayers.Array.data[1].extrusionOptions.maximumHeight
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: _vectorData._layerProperty.vectorSubLayers.Array.data[1].extrusionOptions.extrusionScaleFactor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: _vectorData._layerProperty.vectorSubLayers.Array.data[1].materialOptions.lightStyleOpacity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: _vectorData._layerProperty.vectorSubLayers.Array.data[1].materialOptions.darkStyleOpacity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: _vectorData._layerProperty.vectorSubLayers.Array.data[1].materialOptions.colorStyleColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: _vectorData._layerProperty.vectorSubLayers.Array.data[1].materialOptions.colorStyleColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: _vectorData._layerProperty.vectorSubLayers.Array.data[1].materialOptions.colorStyleColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: _vectorData._layerProperty.vectorSubLayers.Array.data[1].materialOptions.colorStyleColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: _vectorData._layerProperty.vectorSubLayers.Array.data[1].materialOptions.customStyleOptions.materials.Array.data[0].Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 77363562}
+    - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: _vectorData._layerProperty.vectorSubLayers.Array.data[1].materialOptions.customStyleOptions.materials.Array.data[1].Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 637501929}
+    - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: _vectorData._layerProperty.vectorSubLayers.Array.data[1].materialOptions.customStyleOptions.atlasInfo
+      value: 
+      objectReference: {fileID: 11400000, guid: 414754d7155df47beb52ca117a774f21,
+        type: 2}
+    - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: _vectorData._layerProperty.vectorSubLayers.Array.data[1].materialOptions.customStyleOptions.colorPalette
+      value: 
+      objectReference: {fileID: 11400000, guid: 57bdfa37edf7a4f7f999d19443497554,
+        type: 2}
+    - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: _vectorData._layerProperty.vectorSubLayers.Array.data[1].performanceOptions.isEnabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: _vectorData._layerProperty.vectorSubLayers.Array.data[1].performanceOptions.entityPerCoroutine
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: _vectorData._layerProperty.vectorSubLayers.Array.data[1].honorBuildingIdSetting
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: _vectorData._layerProperty.vectorSubLayers.Array.data[1].buildingsWithUniqueIds
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: _vectorData._layerProperty.vectorSubLayers.Array.data[1].presetFeatureType
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: _vectorData._layerProperty.vectorSubLayers.Array.data[1].coreOptions.layerName
+      value: mHub_FireMap_Tileset
+      objectReference: {fileID: 0}
+    - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: _vectorData._layerProperty.vectorSubLayers.Array.data[1].filterOptions._selectedLayerName
+      value: mHub_FireMap_Tileset
+      objectReference: {fileID: 0}
+    - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: _vectorData._layerProperty.vectorSubLayers.Array.data[1].materialOptions.style
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: _vectorData._layerProperty.vectorSubLayers.Array.data[1].materialOptions.materials.Array.data[0].Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 35465196}
+    - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: _vectorData._layerProperty.vectorSubLayers.Array.data[1].materialOptions.materials.Array.data[1].Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 1375531789}
+    - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: _vectorData._layerProperty.vectorSubLayers.Array.data[1].materialOptions.atlasInfo
+      value: 
+      objectReference: {fileID: 11400000, guid: c422f39ca8fe566479230c87805b3301,
+        type: 2}
+    - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: _vectorData._layerProperty.vectorSubLayers.Array.data[0].coreOptions.isActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: _vectorData._layerProperty.vectorSubLayers.Array.data[1].MeshModifiers.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: c1c619f43a2cb5b4a8cbc80e9e814804,
+        type: 2}
+    - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: _vectorData._layerProperty.vectorSubLayers.Array.data[1].GoModifiers.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 7b125502e39484477998874eb8af79b6,
+        type: 2}
+    - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: _vectorData._layerProperty.vectorSubLayers.Array.data[1].filterOptions.filters.Array.data[0].KeyDescription
+      value: Unavailable in Selected Layer.
+      objectReference: {fileID: 0}
+    - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 2}
+      propertyPath: _vectorData._layerProperty.vectorSubLayers.Array.data[1].GoModifiers.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 8c839e30191934c63948abcddd333a44,
+        type: 2}
     m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: c10877f7cd5764de18d46d7b777d1faa, type: 2}
+  m_ParentPrefab: {fileID: 100100000, guid: 35e76f6e52f5c4252a0b703cc2019a37, type: 2}
   m_IsPrefabParent: 0
