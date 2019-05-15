@@ -283,6 +283,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &1341267399566940
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4975192268060664}
+  - component: {fileID: 114651208737673814}
+  m_Layer: 12
+  m_Name: Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1344306411233046
 GameObject:
   m_ObjectHideFlags: 1
@@ -810,9 +826,10 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 4975192268060664}
   - {fileID: 4575768741269198}
-  - {fileID: 4773110821741150}
   - {fileID: 4507228240847652}
+  - {fileID: 4773110821741150}
   - {fileID: 224081640801367952}
   - {fileID: 4433739508582778}
   m_Father: {fileID: 0}
@@ -860,7 +877,7 @@ Transform:
   - {fileID: 4071769880680478}
   - {fileID: 4424099435905634}
   m_Father: {fileID: 4398838867240558}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4455809116787876
 Transform:
@@ -942,7 +959,7 @@ Transform:
   m_Children:
   - {fileID: 4066601245629192}
   m_Father: {fileID: 4398838867240558}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4656917868505632
 Transform:
@@ -964,7 +981,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1732133740857238}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -119.8, y: 0, z: -222}
+  m_LocalPosition: {x: -119.8, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4744217904687926}
@@ -997,7 +1014,7 @@ Transform:
   m_Children:
   - {fileID: 4540409060560038}
   m_Father: {fileID: 4398838867240558}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!4 &4862224234270702
 Transform:
@@ -1011,6 +1028,19 @@ Transform:
   m_Children:
   - {fileID: 4564053892145812}
   m_Father: {fileID: 4507228240847652}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4975192268060664
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1341267399566940}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 53.8, y: 0, z: -7.6}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4398838867240558}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!20 &20207340915113334
@@ -1298,13 +1328,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44d601772d842a94cb5ab933dca6bd4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _map: {fileID: 0}
+  _map: {fileID: 114673356928061534}
   MeshModifiers: []
+  _material: {fileID: 2100000, guid: 005546b882afb44b593a9179506c4b9b, type: 2}
   _waypoints:
-  - {fileID: 4455809116787876}
+  - {fileID: 4862224234270702}
   - {fileID: 4677633510384102}
-  _material: {fileID: 0}
-  _directionsLineWidth: 0
+  UpdateFrequency: 2
 --- !u!114 &114228240162962262
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1792,6 +1822,11 @@ MonoBehaviour:
   _desiredAccuracyInMeters: 5
   _updateDistanceInMeters: 5
   _updateTimeInMilliSeconds: 1000
+  _userHeadingSmoothing: {fileID: 0}
+  _deviceOrientationSmoothing: {fileID: 0}
+  _editorDebuggingOnly:
+    _mockUnityInputLocation: 0
+    _locationLogFile: {fileID: 0}
 --- !u!114 &114505819494751106
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2036,6 +2071,21 @@ MonoBehaviour:
     lorem ipsumorem ipsum
 
     lorem ipsum'
+--- !u!114 &114651208737673814
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1341267399566940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fedf43fe54b842de868a2fbf757b0e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _map: {fileID: 0}
+  MeshModifiers: []
+  _material: {fileID: 0}
+  UpdateFrequency: 2
 --- !u!114 &114660602080485126
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2091,27 +2141,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd961b1c9541a4cee99686069ecce852, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _initializeOnStart: 0
   _options:
     locationOptions:
-      latitudeLongitude: 48.20833, 16.373064
+      latitudeLongitude: 41.895938, -87.652296
       zoom: 16
     extentOptions:
       extentType: 1
-      cameraBoundsOptions:
-        camera: {fileID: 0}
-        visibleBuffer: 0
-        disposeBuffer: 0
-        updateInterval: 0
-      rangeAroundCenterOptions:
-        west: 1
-        north: 1
-        east: 1
-        south: 1
-      rangeAroundTransformOptions:
-        targetTransform: {fileID: 0}
-        visibleBuffer: 0
-        disposeBuffer: 0
+      defaultExtents:
+        cameraBoundsOptions:
+          camera: {fileID: 0}
+          visibleBuffer: 0
+          disposeBuffer: 0
+        rangeAroundCenterOptions:
+          west: 1
+          north: 1
+          east: 1
+          south: 1
+        rangeAroundTransformOptions:
+          targetTransform: {fileID: 0}
+          visibleBuffer: 0
+          disposeBuffer: 0
     placementOptions:
       placementType: 1
       snapMapToZero: 0
@@ -2119,6 +2168,8 @@ MonoBehaviour:
       scalingType: 0
       unityTileSize: 100
     loadingTexture: {fileID: 0}
+    tileMaterial: {fileID: 0}
+  _initializeOnStart: 0
   _imagery:
     _layerProperty:
       sourceType: 0
@@ -2145,9 +2196,9 @@ MonoBehaviour:
           UserName: 
       elevationLayerType: 0
       requiredOptions:
-        baseMaterial: {fileID: 0}
-        addCollider: 0
         exaggerationFactor: 1
+      colliderOptions:
+        addCollider: 0
       modificationOptions:
         sampleCount: 10
         useRelativeHeight: 0
@@ -2163,13 +2214,14 @@ MonoBehaviour:
     _layerProperty:
       tileJsonData:
         tileJSONLoaded: 0
-        LayerDisplayNames: []
-      _sourceType: 1
+        LayerDisplayNames:
+        - mHub_FireMap_Tileset
+      _sourceType: 2
       sourceOptions:
         isActive: 1
         layerSource:
           Name: Mapbox Streets
-          Id: mapbox.mapbox-streets-v7
+          Id: ofbengals13.cjvnwrxsm21p532s1p7n1cs2v-1duu3
           Modified: 
           UserName: 
       useOptimizedStyle: 0
@@ -2184,29 +2236,31 @@ MonoBehaviour:
       vectorSubLayers:
       - coreOptions:
           sourceId: 
-          isActive: 1
+          isActive: 0
           sublayerName: buildings
-          geometryType: 2
-          layerName: building
+          geometryType: 0
+          layerName: mHub_FireMap_Tileset
           snapToTerrain: 1
-          groupFeatures: 0
-          lineWidth: 1
+          combineMeshes: 0
+        lineGeometryOptions:
+          Width: 1
         filterOptions:
-          _selectedLayerName: 
+          _selectedLayerName: mHub_FireMap_Tileset
           filters: []
           combinerType: 0
         extrusionOptions:
-          _selectedLayerName: 
+          _selectedLayerName: mHub_FireMap_Tileset
           extrusionType: 1
           extrusionGeometryType: 0
           propertyName: height
-          propertyDescription: 
+          propertyDescription: Unavailable in Selected Layer.
           minimumHeight: 0
           maximumHeight: 0
           extrusionScaleFactor: 1
         colliderOptions:
           colliderType: 0
         materialOptions:
+          style: 0
           texturingType: 0
           materials:
           - Materials:
@@ -2214,12 +2268,95 @@ MonoBehaviour:
           - Materials:
             - {fileID: 2100000, guid: 65fb5c4ce7e4e4e1bbd063bbb561cde7, type: 2}
           atlasInfo: {fileID: 0}
+          lightStyleOpacity: 1
+          darkStyleOpacity: 1
+          colorStyleColor: {r: 1, g: 1, b: 1, a: 1}
+          samplePalettes: 0
           colorPalette: {fileID: 0}
-        honorBuildingIdSetting: 1
+          customStyleOptions:
+            texturingType: 0
+            materials:
+            - Materials:
+              - {fileID: 0}
+            - Materials:
+              - {fileID: 0}
+            atlasInfo: {fileID: 0}
+            colorPalette: {fileID: 0}
+        performanceOptions:
+          isEnabled: 1
+          entityPerCoroutine: 20
+        honorBuildingIdSetting: 0
         buildingsWithUniqueIds: 0
         moveFeaturePositionTo: 0
         MeshModifiers: []
-        GoModifiers: []
+        GoModifiers:
+        - {fileID: 11400000, guid: 8c839e30191934c63948abcddd333a44, type: 2}
+        presetFeatureType: 4
+        _maskValue: 0
+        selectedTypes: 
+      - coreOptions:
+          sourceId: 
+          isActive: 1
+          sublayerName: points
+          geometryType: 0
+          layerName: mHub_FireMap_Tileset
+          snapToTerrain: 1
+          combineMeshes: 0
+        lineGeometryOptions:
+          Width: 1
+        filterOptions:
+          _selectedLayerName: mHub_FireMap_Tileset
+          filters: []
+          combinerType: 0
+        extrusionOptions:
+          _selectedLayerName: mHub_FireMap_Tileset
+          extrusionType: 0
+          extrusionGeometryType: 0
+          propertyName: height
+          propertyDescription: Unavailable in Selected Layer.
+          minimumHeight: 0
+          maximumHeight: 1
+          extrusionScaleFactor: 1
+        colliderOptions:
+          colliderType: 0
+        materialOptions:
+          style: 4
+          texturingType: 0
+          materials:
+          - Materials:
+            - {fileID: 0}
+          - Materials:
+            - {fileID: 0}
+          atlasInfo: {fileID: 11400000, guid: c422f39ca8fe566479230c87805b3301, type: 2}
+          lightStyleOpacity: 1
+          darkStyleOpacity: 1
+          colorStyleColor: {r: 1, g: 1, b: 1, a: 1}
+          samplePalettes: 0
+          colorPalette: {fileID: 0}
+          customStyleOptions:
+            texturingType: 0
+            materials:
+            - Materials:
+              - {fileID: 0}
+            - Materials:
+              - {fileID: 0}
+            atlasInfo: {fileID: 11400000, guid: 414754d7155df47beb52ca117a774f21,
+              type: 2}
+            colorPalette: {fileID: 11400000, guid: 57bdfa37edf7a4f7f999d19443497554,
+              type: 2}
+        performanceOptions:
+          isEnabled: 1
+          entityPerCoroutine: 20
+        honorBuildingIdSetting: 0
+        buildingsWithUniqueIds: 1
+        moveFeaturePositionTo: 0
+        MeshModifiers:
+        - {fileID: 11400000, guid: c1c619f43a2cb5b4a8cbc80e9e814804, type: 2}
+        GoModifiers:
+        - {fileID: 11400000, guid: 7b125502e39484477998874eb8af79b6, type: 2}
+        presetFeatureType: 4
+        _maskValue: 0
+        selectedTypes: 
       locationPrefabList: []
   _tileProvider: {fileID: 0}
 --- !u!114 &114694595188886814
@@ -2989,7 +3126,7 @@ RectTransform:
   - {fileID: 224098336211897864}
   - {fileID: 4371497924636452}
   m_Father: {fileID: 4398838867240558}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
