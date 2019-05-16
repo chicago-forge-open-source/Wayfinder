@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d86494c2-0420-4d22-aed7-84e2eafde030" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Wayfinder/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Wayfinder/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Wayfinder/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Wayfinder/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Wayfinder/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Wayfinder/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CameraScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CameraScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CameraScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CameraScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox/Examples/1_DataExplorer/Traffic/HeavyTrafficMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mapbox/Examples/1_DataExplorer/Traffic/HeavyTrafficMaterial.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox/Examples/1_DataExplorer/Traffic/LowTrafficMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mapbox/Examples/1_DataExplorer/Traffic/LowTrafficMaterial.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox/Examples/1_DataExplorer/Traffic/ModerateTrafficMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mapbox/Examples/1_DataExplorer/Traffic/ModerateTrafficMaterial.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mapbox/Examples/1_DataExplorer/Traffic/SevereTrafficMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mapbox/Examples/1_DataExplorer/Traffic/SevereTrafficMaterial.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Mapbox/Unity/MeshGeneration/Factories/DirectionsFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mapbox/Unity/MeshGeneration/Factories/DirectionsFactory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MapboxAR/Prefabs/WorldAlignmentKit.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MapboxAR/Prefabs/WorldAlignmentKit.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnityPackageManager/manifest.json" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,93 +11,105 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Assets/CameraScript.cs">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="705">
-                  <caret line="47" column="5" selection-start-line="43" selection-start-column="4" selection-end-line="47" selection-end-column="5" />
-                  <folding>
-                    <marker date="1557945028534" expanded="true" signature="6:379" ph="..." />
-                    <marker date="1557945028534" expanded="true" signature="422:1128" ph="{...}" />
-                    <marker date="1557945028534" expanded="true" signature="546:710" ph="{...}" />
-                    <marker date="1557945028534" expanded="true" signature="632:704" ph="{...}" />
-                    <marker date="1557945028534" expanded="true" signature="728:755" ph="{...}" />
-                    <marker date="1557945028534" expanded="true" signature="821:833" ph="{...}" />
-                    <marker date="1557945028534" expanded="true" signature="887:987" ph="{...}" />
-                    <marker date="1557945028534" expanded="true" signature="1054:1126" ph="{...}" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Assets/UnityARInterface/Scripts/ARPlaneVisualizer.cs">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="585">
-                  <caret line="41" column="80" selection-start-line="41" selection-start-column="80" selection-end-line="41" selection-end-column="80" />
-                  <folding>
-                    <marker date="1539384832000" expanded="false" signature="6:78" ph="..." />
-                    <marker date="1539384832000" expanded="true" signature="106:2299" ph="{...}" />
-                    <marker date="1539384832000" expanded="true" signature="152:2297" ph="{...}" />
-                    <marker date="1539384832000" expanded="true" signature="471:737" ph="{...}" />
-                    <marker date="1539384832000" expanded="true" signature="763:962" ph="{...}" />
-                    <marker date="1539384832000" expanded="true" signature="1039:1674" ph="{...}" />
-                    <marker date="1539384832000" expanded="true" signature="1133:1462" ph="{...}" />
-                    <marker date="1539384832000" expanded="true" signature="1744:1844" ph="{...}" />
-                    <marker date="1539384832000" expanded="true" signature="1916:2016" ph="{...}" />
-                    <marker date="1539384832000" expanded="true" signature="2088:2291" ph="{...}" />
-                    <marker date="1539384832000" expanded="true" signature="2181:2281" ph="{...}" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Assets/Mapbox/Unity/MeshGeneration/Factories/DirectionsFactory.cs">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="236">
-                  <caret line="81" column="85" selection-start-line="81" selection-start-column="85" selection-end-line="81" selection-end-column="85" />
-                  <folding>
-                    <marker date="1557949120381" expanded="true" signature="47:3789" ph="{...}" />
-                    <marker date="1557949120381" expanded="true" signature="57:285" ph="..." />
-                    <marker date="1557949120381" expanded="true" signature="334:3786" ph="{...}" />
-                    <marker date="1557949120381" expanded="true" signature="790:984" ph="{...}" />
-                    <marker date="1557949120381" expanded="true" signature="815:869" ph="{...}" />
-                    <marker date="1557949120381" expanded="true" signature="1007:1306" ph="{...}" />
-                    <marker date="1557949120381" expanded="true" signature="1107:1158" ph="{...}" />
-                    <marker date="1557949120381" expanded="true" signature="1231:1268" ph="{...}" />
-                    <marker date="1557949120381" expanded="true" signature="1344:1412" ph="{...}" />
-                    <marker date="1557949120381" expanded="true" signature="1428:1819" ph="{...}" />
-                    <marker date="1557949120381" expanded="true" signature="1534:1632" ph="{...}" />
-                    <marker date="1557949120381" expanded="true" signature="1873:1959" ph="{...}" />
-                    <marker date="1557949120381" expanded="true" signature="1994:2379" ph="{...}" />
-                    <marker date="1557949120381" expanded="true" signature="2014:2375" ph="{...}" />
-                    <marker date="1557949120381" expanded="true" signature="2121:2286" ph="{...}" />
-                    <marker date="1557949120381" expanded="true" signature="2183:2280" ph="{...}" />
-                    <marker date="1557949120381" expanded="true" signature="2313:2370" ph="{...}" />
-                    <marker date="1557949120381" expanded="true" signature="2441:3039" ph="{...}" />
-                    <marker date="1557949120381" expanded="true" signature="2526:2548" ph="{...}" />
-                    <marker date="1557949120381" expanded="true" signature="2671:2804" ph="{...}" />
-                    <marker date="1557949120381" expanded="true" signature="2939:3003" ph="{...}" />
-                    <marker date="1557949120381" expanded="true" signature="3085:3783" ph="{...}" />
-                    <marker date="1557949120381" expanded="true" signature="3119:3157" ph="{...}" />
-                    <marker date="1557949120381" expanded="true" signature="3444:3528" ph="{...}" />
-                    <marker date="1557949120381" expanded="true" signature="3596:3655" ph="{...}" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Mapbox/Core/mapbox-sdk-cs/Utils/Vector2d/Vector2d.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="13" selection-start-column="13" selection-end-column="13" />
+              <folding>
+                <marker date="1557949317973" expanded="true" signature="22:5060" ph="{...}" />
+                <marker date="1557949317973" expanded="false" signature="35:94" ph="..." />
+                <marker date="1557949317973" expanded="true" signature="135:5058" ph="{...}" />
+                <marker date="1557949317973" expanded="true" signature="250:684" ph="{...}" />
+                <marker date="1557949317973" expanded="true" signature="261:453" ph="{...}" />
+                <marker date="1557949317973" expanded="true" signature="285:448" ph="{...}" />
+                <marker date="1557949317973" expanded="true" signature="460:680" ph="{...}" />
+                <marker date="1557949317973" expanded="true" signature="484:675" ph="{...}" />
+                <marker date="1557949317973" expanded="true" signature="729:855" ph="{...}" />
+                <marker date="1557949317973" expanded="true" signature="740:851" ph="{...}" />
+                <marker date="1557949317973" expanded="true" signature="897:980" ph="{...}" />
+                <marker date="1557949317973" expanded="true" signature="908:976" ph="{...}" />
+                <marker date="1557949317973" expanded="true" signature="1025:1096" ph="{...}" />
+                <marker date="1557949317973" expanded="true" signature="1036:1092" ph="{...}" />
+                <marker date="1557949317973" expanded="true" signature="1127:1189" ph="{...}" />
+                <marker date="1557949317973" expanded="true" signature="1138:1185" ph="{...}" />
+                <marker date="1557949317973" expanded="true" signature="1219:1277" ph="{...}" />
+                <marker date="1557949317973" expanded="true" signature="1230:1273" ph="{...}" />
+                <marker date="1557949317973" expanded="true" signature="1306:1366" ph="{...}" />
+                <marker date="1557949317973" expanded="true" signature="1317:1362" ph="{...}" />
+                <marker date="1557949317973" expanded="true" signature="1398:1458" ph="{...}" />
+                <marker date="1557949317973" expanded="true" signature="1409:1454" ph="{...}" />
+                <marker date="1557949317973" expanded="true" signature="1497:1535" ph="{...}" />
+                <marker date="1557949317973" expanded="true" signature="1596:1650" ph="{...}" />
+                <marker date="1557949317973" expanded="true" signature="1711:1765" ph="{...}" />
+                <marker date="1557949317973" expanded="true" signature="1814:1858" ph="{...}" />
+                <marker date="1557949317973" expanded="true" signature="1917:1967" ph="{...}" />
+                <marker date="1557949317973" expanded="true" signature="2025:2075" ph="{...}" />
+                <marker date="1557949317973" expanded="true" signature="2134:2184" ph="{...}" />
+                <marker date="1557949317973" expanded="true" signature="2246:2310" ph="{...}" />
+                <marker date="1557949317973" expanded="true" signature="2372:2445" ph="{...}" />
+                <marker date="1557949317973" expanded="true" signature="2492:2538" ph="{...}" />
+                <marker date="1557949317973" expanded="true" signature="2607:2724" ph="{...}" />
+                <marker date="1557949317973" expanded="true" signature="2822:3058" ph="{...}" />
+                <marker date="1557949317973" expanded="true" signature="3114:3168" ph="{...}" />
+                <marker date="1557949317973" expanded="true" signature="3205:3257" ph="{...}" />
+                <marker date="1557949317973" expanded="true" signature="3284:3434" ph="{...}" />
+                <marker date="1557949317973" expanded="true" signature="3471:3569" ph="{...}" />
+                <marker date="1557949317973" expanded="true" signature="3606:3674" ph="{...}" />
+                <marker date="1557949317973" expanded="true" signature="3719:3912" ph="{...}" />
+                <marker date="1557949317973" expanded="true" signature="3968:4017" ph="{...}" />
+                <marker date="1557949317973" expanded="true" signature="4075:4185" ph="{...}" />
+                <marker date="1557949317973" expanded="true" signature="4242:4279" ph="{...}" />
+                <marker date="1557949317973" expanded="true" signature="4355:4484" ph="{...}" />
+                <marker date="1557949317973" expanded="true" signature="4533:4576" ph="{...}" />
+                <marker date="1557949317973" expanded="true" signature="4608:4663" ph="{...}" />
+                <marker date="1557949317973" expanded="true" signature="4721:4803" ph="{...}" />
+                <marker date="1557949317973" expanded="true" signature="4861:4943" ph="{...}" />
+                <marker date="1557949317973" expanded="true" signature="4972:5055" ph="{...}" />
+                <marker date="1557949317973" expanded="true" signature="5000:5032" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Mapbox/Unity/MeshGeneration/Factories/DirectionsFactory.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="81" column="85" selection-start-line="81" selection-start-column="85" selection-end-line="81" selection-end-column="85" />
+              <folding>
+                <marker date="1558020232903" expanded="true" signature="47:3789" ph="{...}" />
+                <marker date="1558020232903" expanded="true" signature="57:285" ph="..." />
+                <marker date="1558020232903" expanded="true" signature="334:3786" ph="{...}" />
+                <marker date="1558020232903" expanded="true" signature="790:984" ph="{...}" />
+                <marker date="1558020232903" expanded="true" signature="815:869" ph="{...}" />
+                <marker date="1558020232903" expanded="true" signature="1007:1306" ph="{...}" />
+                <marker date="1558020232903" expanded="true" signature="1107:1158" ph="{...}" />
+                <marker date="1558020232903" expanded="true" signature="1231:1268" ph="{...}" />
+                <marker date="1558020232903" expanded="true" signature="1344:1412" ph="{...}" />
+                <marker date="1558020232903" expanded="true" signature="1428:1819" ph="{...}" />
+                <marker date="1558020232903" expanded="true" signature="1534:1632" ph="{...}" />
+                <marker date="1558020232903" expanded="true" signature="1873:1959" ph="{...}" />
+                <marker date="1558020232903" expanded="true" signature="1994:2379" ph="{...}" />
+                <marker date="1558020232903" expanded="true" signature="2014:2375" ph="{...}" />
+                <marker date="1558020232903" expanded="true" signature="2121:2286" ph="{...}" />
+                <marker date="1558020232903" expanded="true" signature="2183:2280" ph="{...}" />
+                <marker date="1558020232903" expanded="true" signature="2313:2370" ph="{...}" />
+                <marker date="1558020232903" expanded="true" signature="2441:3039" ph="{...}" />
+                <marker date="1558020232903" expanded="true" signature="2526:2548" ph="{...}" />
+                <marker date="1558020232903" expanded="true" signature="2671:2804" ph="{...}" />
+                <marker date="1558020232903" expanded="true" signature="2939:3003" ph="{...}" />
+                <marker date="1558020232903" expanded="true" signature="3085:3783" ph="{...}" />
+                <marker date="1558020232903" expanded="true" signature="3119:3157" ph="{...}" />
+                <marker date="1558020232903" expanded="true" signature="3444:3528" ph="{...}" />
+                <marker date="1558020232903" expanded="true" signature="3596:3655" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -132,28 +127,43 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Mapbox/Unity/Editor/GeocodeAttributeSearchWindow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/UnityARInterface/Examples/Scripts/RemoveRigidbody.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Mapbox/Unity/Editor/FeatureSectionMultiColumnHeader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MapboxAR/Unity/Ar/SimpleAutomaticSynchronizationContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Mapbox/Unity/Editor/ScriptablePaletteEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CameraScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Mapbox/Core/mapbox-sdk-cs/Directions/Response/DirectionsResponse.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Mapbox/Unity/Map/Interfaces/IMap.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MapboxAR/Examples/ARPrerequisiteInfo.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ThirdPartyAssets/WoLfulus/LineEnding/Editor/LogEntries.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Editor/CameraSceneTest.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ThirdPartyAssets/WoLfulus/LineEnding/Editor/LogEntry.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MapboxAR/Unity/Ar/ManualSynchronizationContextBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Mapbox/Unity/SourceLayers/ILayer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MapboxAR/Unity/Ar/AverageHeadingAlignmentStrategy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MapboxAR/Unity/Ar/SimpleAutomaticSynchronizationContextBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UnityARInterface/Scripts/ARPlaneVisualizer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Mapbox/Unity/Map/AbstractMap.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Mapbox/Unity/MeshGeneration/Factories/DirectionsFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/UnityARKitPlugin/Plugins/iOS/UnityARKit/Helpers/UnityARMatrixOps.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Mapbox/Unity/Map/AbstractMapVisualizer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Editor/BuildHelper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MapboxAR/Unity/Ar/Utilities/PlotRoute.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/ApiTrackableTypeExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Mapbox/Examples/5_Playground/Scripts/LogLocationProviderData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Mapbox/Unity/Editor/GeocodeAttributeSearchWindow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Mapbox/Unity/Map/Interfaces/IMap.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/PlaneApi.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Mapbox/Core/mapbox-sdk-cs/Utils/Vector2d/Vector2d.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ThirdPartyAssets/WoLfulus/LineEnding/Editor/LogEntries.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ThirdPartyAssets/WoLfulus/LineEnding/Editor/LogEntry.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Mapbox/Unity/MeshGeneration/Factories/DirectionsFactory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Mapbox/Unity/DataContainers/MapboxEnums.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Mapbox/Core/mapbox-sdk-cs/Tests/UnitTests/Editor/MapboxUnitTests_FileSource.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Mapbox/Unity/Location/DeviceLocationProvider.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Editor/BuildHelper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Mapbox/Core/mapbox-sdk-cs/Geocoding/Response/Feature.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Mapbox/Unity/SourceLayers/VectorLayer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MapboxAR/Unity/Ar/Utilities/PlotRoute.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/Api/ApiTrackableTypeExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GoogleARCore/Examples/ComputerVision/Scripts/ComputerVisionController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GoogleARCore/SDK/Scripts/TrackedPoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Mapbox/Core/mapbox-sdk-cs/Directions/RoutingProfile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Mapbox/Core/mapbox-sdk-cs/Platform/Resource.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Mapbox/Unity/Location/Location.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -183,15 +193,15 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="FileSystemExplorer" />
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
-      <pane id="AssemblyExplorer" />
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
       </pane>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -252,7 +262,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10194000" />
+    <option name="totallyTimeSpent" value="10275000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -264,10 +274,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.015974442" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14835165" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1122,19 +1132,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
           <caret line="41" column="80" selection-start-line="41" selection-start-column="80" selection-end-line="41" selection-end-column="80" />
-          <folding>
-            <marker date="1539384832000" expanded="false" signature="6:78" ph="..." />
-            <marker date="1539384832000" expanded="true" signature="106:2299" ph="{...}" />
-            <marker date="1539384832000" expanded="true" signature="152:2297" ph="{...}" />
-            <marker date="1539384832000" expanded="true" signature="471:737" ph="{...}" />
-            <marker date="1539384832000" expanded="true" signature="763:962" ph="{...}" />
-            <marker date="1539384832000" expanded="true" signature="1039:1674" ph="{...}" />
-            <marker date="1539384832000" expanded="true" signature="1133:1462" ph="{...}" />
-            <marker date="1539384832000" expanded="true" signature="1744:1844" ph="{...}" />
-            <marker date="1539384832000" expanded="true" signature="1916:2016" ph="{...}" />
-            <marker date="1539384832000" expanded="true" signature="2088:2291" ph="{...}" />
-            <marker date="1539384832000" expanded="true" signature="2181:2281" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1142,49 +1139,39 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="705">
           <caret line="47" column="5" selection-start-line="43" selection-start-column="4" selection-end-line="47" selection-end-column="5" />
-          <folding>
-            <marker date="1557945028534" expanded="true" signature="6:379" ph="..." />
-            <marker date="1557945028534" expanded="true" signature="422:1128" ph="{...}" />
-            <marker date="1557945028534" expanded="true" signature="546:710" ph="{...}" />
-            <marker date="1557945028534" expanded="true" signature="632:704" ph="{...}" />
-            <marker date="1557945028534" expanded="true" signature="728:755" ph="{...}" />
-            <marker date="1557945028534" expanded="true" signature="821:833" ph="{...}" />
-            <marker date="1557945028534" expanded="true" signature="887:987" ph="{...}" />
-            <marker date="1557945028534" expanded="true" signature="1054:1126" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Mapbox/Unity/MeshGeneration/Factories/DirectionsFactory.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
+        <state relative-caret-position="256">
           <caret line="81" column="85" selection-start-line="81" selection-start-column="85" selection-end-line="81" selection-end-column="85" />
           <folding>
-            <marker date="1557949120381" expanded="true" signature="47:3789" ph="{...}" />
-            <marker date="1557949120381" expanded="true" signature="57:285" ph="..." />
-            <marker date="1557949120381" expanded="true" signature="334:3786" ph="{...}" />
-            <marker date="1557949120381" expanded="true" signature="790:984" ph="{...}" />
-            <marker date="1557949120381" expanded="true" signature="815:869" ph="{...}" />
-            <marker date="1557949120381" expanded="true" signature="1007:1306" ph="{...}" />
-            <marker date="1557949120381" expanded="true" signature="1107:1158" ph="{...}" />
-            <marker date="1557949120381" expanded="true" signature="1231:1268" ph="{...}" />
-            <marker date="1557949120381" expanded="true" signature="1344:1412" ph="{...}" />
-            <marker date="1557949120381" expanded="true" signature="1428:1819" ph="{...}" />
-            <marker date="1557949120381" expanded="true" signature="1534:1632" ph="{...}" />
-            <marker date="1557949120381" expanded="true" signature="1873:1959" ph="{...}" />
-            <marker date="1557949120381" expanded="true" signature="1994:2379" ph="{...}" />
-            <marker date="1557949120381" expanded="true" signature="2014:2375" ph="{...}" />
-            <marker date="1557949120381" expanded="true" signature="2121:2286" ph="{...}" />
-            <marker date="1557949120381" expanded="true" signature="2183:2280" ph="{...}" />
-            <marker date="1557949120381" expanded="true" signature="2313:2370" ph="{...}" />
-            <marker date="1557949120381" expanded="true" signature="2441:3039" ph="{...}" />
-            <marker date="1557949120381" expanded="true" signature="2526:2548" ph="{...}" />
-            <marker date="1557949120381" expanded="true" signature="2671:2804" ph="{...}" />
-            <marker date="1557949120381" expanded="true" signature="2939:3003" ph="{...}" />
-            <marker date="1557949120381" expanded="true" signature="3085:3783" ph="{...}" />
-            <marker date="1557949120381" expanded="true" signature="3119:3157" ph="{...}" />
-            <marker date="1557949120381" expanded="true" signature="3444:3528" ph="{...}" />
-            <marker date="1557949120381" expanded="true" signature="3596:3655" ph="{...}" />
+            <marker date="1558020232903" expanded="true" signature="47:3789" ph="{...}" />
+            <marker date="1558020232903" expanded="true" signature="57:285" ph="..." />
+            <marker date="1558020232903" expanded="true" signature="334:3786" ph="{...}" />
+            <marker date="1558020232903" expanded="true" signature="790:984" ph="{...}" />
+            <marker date="1558020232903" expanded="true" signature="815:869" ph="{...}" />
+            <marker date="1558020232903" expanded="true" signature="1007:1306" ph="{...}" />
+            <marker date="1558020232903" expanded="true" signature="1107:1158" ph="{...}" />
+            <marker date="1558020232903" expanded="true" signature="1231:1268" ph="{...}" />
+            <marker date="1558020232903" expanded="true" signature="1344:1412" ph="{...}" />
+            <marker date="1558020232903" expanded="true" signature="1428:1819" ph="{...}" />
+            <marker date="1558020232903" expanded="true" signature="1534:1632" ph="{...}" />
+            <marker date="1558020232903" expanded="true" signature="1873:1959" ph="{...}" />
+            <marker date="1558020232903" expanded="true" signature="1994:2379" ph="{...}" />
+            <marker date="1558020232903" expanded="true" signature="2014:2375" ph="{...}" />
+            <marker date="1558020232903" expanded="true" signature="2121:2286" ph="{...}" />
+            <marker date="1558020232903" expanded="true" signature="2183:2280" ph="{...}" />
+            <marker date="1558020232903" expanded="true" signature="2313:2370" ph="{...}" />
+            <marker date="1558020232903" expanded="true" signature="2441:3039" ph="{...}" />
+            <marker date="1558020232903" expanded="true" signature="2526:2548" ph="{...}" />
+            <marker date="1558020232903" expanded="true" signature="2671:2804" ph="{...}" />
+            <marker date="1558020232903" expanded="true" signature="2939:3003" ph="{...}" />
+            <marker date="1558020232903" expanded="true" signature="3085:3783" ph="{...}" />
+            <marker date="1558020232903" expanded="true" signature="3119:3157" ph="{...}" />
+            <marker date="1558020232903" expanded="true" signature="3444:3528" ph="{...}" />
+            <marker date="1558020232903" expanded="true" signature="3596:3655" ph="{...}" />
           </folding>
         </state>
       </provider>
