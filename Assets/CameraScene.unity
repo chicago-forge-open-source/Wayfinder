@@ -625,7 +625,7 @@ PrefabInstance:
     - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
         type: 3}
       propertyPath: _vectorData._layerProperty.vectorSubLayers.Array.data[0].MeshModifiers.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
         type: 3}
@@ -987,7 +987,7 @@ PrefabInstance:
     - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
         type: 3}
       propertyPath: _vectorData._layerProperty.vectorSubLayers.Array.data[2].honorBuildingIdSetting
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
         type: 3}
@@ -1027,6 +1027,16 @@ PrefabInstance:
     - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
         type: 3}
       propertyPath: _vectorData._layerProperty.vectorSubLayers.Array.data[1].coreOptions.isActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.vectorSubLayers.Array.data[2].extrusionOptions.extrusionGeometryType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114673356928061534, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 3}
+      propertyPath: _vectorData._layerProperty.vectorSubLayers.Array.data[2].coreOptions.combineMeshes
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1632351600173794, guid: 35e76f6e52f5c4252a0b703cc2019a37, type: 3}
@@ -1116,6 +1126,26 @@ PrefabInstance:
     - target: {fileID: 120911643056339786, guid: 35e76f6e52f5c4252a0b703cc2019a37,
         type: 3}
       propertyPath: m_UseWorldSpace
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114821216931946548, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 3}
+      propertyPath: _useAutomaticSynchronizationBias
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114821216931946548, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 3}
+      propertyPath: _arTrustRange
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 114501081218337696, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 3}
+      propertyPath: _desiredAccuracyInMeters
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114501081218337696, guid: 35e76f6e52f5c4252a0b703cc2019a37,
+        type: 3}
+      propertyPath: _updateDistanceInMeters
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
